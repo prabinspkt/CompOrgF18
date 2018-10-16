@@ -23,6 +23,10 @@ main:
 	addi	$a0, $a0, 7
 	li	$v0, 11
 	syscall
+	Print the character n
+	addi	$a0, $a0, 5
+	li	$v0, 11
+	syscall
 	#Terminate the program
 exit:	li	$v0, 10
 	syscall
