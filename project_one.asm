@@ -75,6 +75,10 @@ main:
 	addi	$a0, $a0, -53
 	li	$v0, 11
 	syscall
+	#Print a space
+	addi	$a0, $a0, -12
+	li	$v0, 11
+	syscall
 	
 	
 	
