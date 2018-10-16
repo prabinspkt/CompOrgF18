@@ -55,6 +55,10 @@ main:
 	addi	$a0, $a0, 15
 	li	$v0, 11
 	syscall
+	#Print the character k
+	addi	$a0, $a0, -5
+	li	$v0, 11
+	syscall
 	
 	
 	
