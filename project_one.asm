@@ -51,6 +51,10 @@ main:
 	addi	$a0, $a0, 14
 	li	$v0, 11
 	syscall
+	#Print the character p
+	addi	$a0, $a0, 15
+	li	$v0, 11
+	syscall
 	
 	
 	
