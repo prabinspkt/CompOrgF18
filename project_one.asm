@@ -27,6 +27,10 @@ main:
 	addi	$a0, $a0, -4
 	li	$v0, 1
 	syscall
+	#Print the number 8
+	addi	$a0, $a0, 8
+	li	$v0, 1
+	syscall
 	
 	
 	
