@@ -35,6 +35,11 @@ main:
 	addi	$a0, $a0, -3
 	li	$v0, 1
 	syscall
+	#Print the number 9
+	addi	$a0, $a0, 4
+	li	$v0, 1
+	syscall
+	
 	
 	
 	
