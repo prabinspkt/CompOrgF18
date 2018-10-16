@@ -71,6 +71,10 @@ main:
 	addi	$a0, $a0, -19
 	li	$v0, 11
 	syscall
+	#Print a comma
+	addi	$a0, $a0, -53
+	li	$v0, 11
+	syscall
 	
 	
 	
