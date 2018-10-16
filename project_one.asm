@@ -11,6 +11,10 @@ main:
 	addi	$a0, $a0, -64
 	li	$v0, 1
 	syscall
+	#Print the number 2
+	addi	$a0, $a0, 2
+	li	$v0, 1
+	syscall
 	
 	
 	#Print the character P
