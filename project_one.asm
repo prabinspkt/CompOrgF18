@@ -79,13 +79,8 @@ main:
 	addi	$a0, $a0, -12
 	li	$v0, 11
 	syscall
-	
-	
-	
-	
-	
 	#Print the character P
-	li	$a0, 'P'
+	addi	$a0, $a0, 48
 	li	$v0, 11
 	syscall
 	#Print the character r
