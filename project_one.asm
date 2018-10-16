@@ -1,5 +1,7 @@
-# MIPS instructions to print my name Prabin Sapkota
-# one character at a time using only one register
+# MIPS instructions to print my name student ID, last name and
+# first name one character at a time using only one register
+# Values in the register are updated by adding an integer to the
+# prior value, rather than loading a new value each time
 
 .text
 main:
