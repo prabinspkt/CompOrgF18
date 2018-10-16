@@ -47,7 +47,10 @@ main:
 	addi	$a0, $a0, 73
 	li	$v0, 11
 	syscall
-	
+	#Print the character a
+	addi	$a0, $a0, 14
+	li	$v0, 11
+	syscall
 	
 	
 	
