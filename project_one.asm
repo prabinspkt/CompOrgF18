@@ -19,6 +19,10 @@ main:
 	addi	$a0, $a0, 1
 	li	$v0, 11
 	syscall
+	#Print the character i
+	addi	$a0, $a0, 7
+	li	$v0, 11
+	syscall
 	#Terminate the program
 exit:	li	$v0, 10
 	syscall
