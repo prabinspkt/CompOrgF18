@@ -63,6 +63,10 @@ main:
 	addi	$a0, $a0, 4
 	li	$v0, 11
 	syscall
+	#Print the character t
+	addi	$a0, $a0, 5
+	li	$v0, 11
+	syscall
 	
 	
 	
