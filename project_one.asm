@@ -23,6 +23,10 @@ main:
 	addi	$a0, $a0, -4
 	li	$v0, 1
 	syscall
+	#Print the number 0
+	addi	$a0, $a0, -4
+	li	$v0, 1
+	syscall
 	
 	
 	
