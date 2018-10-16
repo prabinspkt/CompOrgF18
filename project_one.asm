@@ -43,6 +43,10 @@ main:
 	addi	$a0, $a0, 1
 	li	$v0, 11
 	syscall
+	#Print the character S
+	addi	$a0, $a0, 73
+	li	$v0, 11
+	syscall
 	
 	
 	
