@@ -7,6 +7,10 @@ main:
 	li	$a0, '@'
 	li	$v0, 11
 	syscall
+	#Print the number 0
+	addi	$a0, $a0, -64
+	li	$v0, 1
+	syscall
 	
 	
 	#Print the character P
