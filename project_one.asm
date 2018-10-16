@@ -39,6 +39,11 @@ main:
 	addi	$a0, $a0, 4
 	li	$v0, 1
 	syscall
+	#Print a new line
+	addi	$a0, $a0, 1
+	li	$v0, 11
+	syscall
+	
 	
 	
 	
